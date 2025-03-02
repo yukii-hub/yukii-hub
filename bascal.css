@@ -1,0 +1,29 @@
+
+        h1 {
+            font-size: 2.5rem;
+            color: rgb(215, 215, 223);
+            margin-bottom: 1rem;
+            text-align: left;
+            letter-spacing: 5px;
+        }
+    button {
+        font-size: 16px;
+        font-weight: 800;
+        padding: 10px 20px;
+        background: transparent;
+        color: #e2e1eb;  
+        border-radius: 10px;
+        border-color: #000000;
+        cursor: pointer;
+
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+    button:hover {
+        transform: translateY(-10px);
+        background: linear-gradient(to right, #000000, #090942, #100a4d );
+        border-color: white;
+        color: #ffffff;
+    }
